@@ -48,3 +48,48 @@ Add bounding-box based word grouping
 
 Build web interface
 
+
+
+📁 Project Structure
+
+OCR/
+│
+├── main.py
+├── medicine_extractor.py
+├── drug_matcher.py
+├── images/
+│ └── sample.png
+├── output/
+│ └── result.json
+├── drug_list.pdf
+├── requirements.txt
+└── README.md
+
+
+---
+
+## ▶ How To Run
+
+### 1. Create Virtual Environment
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+
+2. Install Dependencies
+pip install -r requirements.txt
+
+3. Install Tesseract OCR
+Download and install from:
+
+https://github.com/UB-Mannheim/tesseract/wiki
+
+After installing, update path inside code:
+
+pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+
+4. Run Program
+python main.py
+Output will be saved to:
+
+output/result.json
