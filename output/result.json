@@ -1,8 +1,18 @@
 {
-    "cleaned_text": "deas gr osshie uce sree\nmedicalcentre\n emac sret\nkem vor ny sten usa\nunam jol saaith ace 24\nappniss 16z exawale se nsx qfolliz\nbetton 100m f 4ab bid \n dortelantdess 10 mg 0b dab bd\ncimabidies 50 ny 2 dabr tid \n onpralel 50my 1446 od\ndes steve jolaron\ncts\nrel o02 3 43 prn wnannet",
-    "medicines": [],
-    "dosages": [
-        "bd",
-        "tid"
-    ]
+    "cleaned_text": "bano aaa mo omenad eonier 7 0010 8 45 \n\n1abbs govt medical cotege thrissur cantaly 3 30 to 7 30 \nm d paediatrics jipmer reg no 2 52547\n regaaseaiactacs pnaosesesies f\n chc hemmara \n date 20-q-2022 \n2 nome ashuika weight r\n \n1 age genden coy / 13 25 kg \n \n clinical description 5\n f\n5 or ti rr-22imin\n ro-b/ nee \n advice \n \nsyp calpol qs0is 4m qch x 3d\nj\n \nsyp oelcon 3mt tos x sd\ni\nj syp levolin 3b ml ths x sd\n \nu\nmer \no9p thep oo/s 3 ro s05\n 2eps amigs \n248035 mroes emoaide\n\n 2gh 8 00 aenras aorate adlaconuo pemonnt\n\n n -",
+    "medicines": [
+        {
+            "name": "Calpol",
+            "dosage": "Not specified"
+        },
+        {
+            "name": "Oelcon",
+            "dosage": "Not specified"
+        },
+        {
+            "name": "Levolin",
+            "dosage": "Not specified"
+        }
+    ],
+    "dosages": []
 }

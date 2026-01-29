@@ -1,6 +1,6 @@
 from medicine_extractor import process_prescription
 
-image_path = "images/sample1.png"
+image_path = "images/sample4.png"
 result = process_prescription(image_path)
 
 import json
