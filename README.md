@@ -1,18 +1,50 @@
-Medical Prescription OCR Project
+# OCR-Based Medicine Name Extraction System
 
-This project extracts text from medical prescription images using Tesseract OCR,
-cleans the text, and converts it into structured JSON format.
+This project extracts medicine names and basic dosage information from prescription images using OCR (Optical Character Recognition) and rule-based + fuzzy matching techniques.
 
-How It Works:
-1. Image preprocessing
-2. OCR extraction
-3. Text cleaning
-4. Medicine extraction
+The goal is to convert unstructured prescription images into structured JSON output.
+
+---
+
+## 🚀 Features
+
+- Extracts raw text from prescription images using Tesseract OCR
+- Cleans and normalizes noisy OCR text
+- Loads a large medicine name list from a PDF drug database
+- Uses fuzzy matching to match OCR words with known medicine names
+- Attempts to extract dosage patterns (mg, ml, tab, etc.)
+- Outputs structured JSON result
+
+---
+
+## 🧠 Current Pipeline
+
+1. Input image → OpenCV preprocessing  
+2. OCR → pytesseract extracts text  
+3. Text cleaning (remove symbols, normalize spaces)  
+4. Medicine matching using fuzzy matching + drug list  
 5. JSON output
 
-Run Instructions:
+---
+⚠ Current Limitations
 
-python main.py
+OCR accuracy depends on image quality
 
-Output:
-result.json will be created inside output folder.
+Handwritten prescriptions are harder to read
+
+Some medicine names may not be detected
+
+Fuzzy matching may sometimes return incorrect matches
+
+🔮 Future Improvements
+
+Use deep learning OCR (EasyOCR / PaddleOCR)
+
+Train custom medicine NER model
+
+Improve dosage extraction
+
+Add bounding-box based word grouping
+
+Build web interface
+
